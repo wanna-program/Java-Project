@@ -2,12 +2,11 @@ package com.travelcompany.eshop.models;
 
 public abstract class Person {
 
-    private int id;
-    private String name;
-    private String email;
-    private String address;
-    private String nationality;
-
+    private final int id;
+    private final String name;
+    private final String email;
+    private final String address;
+    private final String nationality;
 
     public Person(int id, String name, String email, String address, String nationality) {
 
