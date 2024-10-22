@@ -1,4 +1,4 @@
 package com.travelcompany.eshop.services;
 
-public class InineraryService {
+public class TicketServiceImpl {
 }

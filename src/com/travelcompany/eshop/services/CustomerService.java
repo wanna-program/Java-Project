@@ -1,4 +1,4 @@
 package com.travelcompany.eshop.services;
 
-public class CustomerService {
+public interface CustomerService {
 }
