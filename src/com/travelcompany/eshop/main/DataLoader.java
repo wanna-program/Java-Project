@@ -1,4 +1,4 @@
 package com.travelcompany.eshop.main;
 
-public class DataInitializer {
+public class DataLoader{
 }
