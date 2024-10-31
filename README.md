@@ -52,7 +52,7 @@ The Travel Company E-Shop is a Java-based console application that simulates the
 ## Technologies Used
 
 - **Java SE 8 or higher**
-- **JDK 23
+- **JDK 23**
 - **Java Collections Framework**
 - **Java Stream API**
 - **Date and Time API (Java 8+)**
@@ -62,4 +62,5 @@ The Travel Company E-Shop is a Java-based console application that simulates the
 ## Project Structure
 
 src/ ├── com.travelcompany.eshop.exceptions/ │   ├── CustomerEmailException.java │   ├── CustomerNotFoundException.java │   ├── InvalidAirportCodeException.java │   └── ItineraryNotFoundException.java ├── com.travelcompany.eshop.main/ │   ├── DataLoader.java │   └── Main.java ├── com.travelcompany.eshop.models/ │   ├── Customer.java │   ├── CustomerCategory.java │   ├── Itinerary.java │   ├── PaymentMethod.java │   ├── Person.java │   └── Ticket.java └── com.travelcompany.eshop.services/ ├── CustomerService.java ├── CustomerServiceImpl.java ├── ItineraryService.java ├── ItineraryServiceImpl.java ├── ReportService.java ├── ReportServiceImpl.java ├── TicketService.java └── TicketServiceImpl.java
+
 
