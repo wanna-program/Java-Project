@@ -1,6 +1,6 @@
 package com.travelcompany.eshop.models;
 
-public class Person {
+public abstract class Person {
     private int id;
     private String name;
     private String email;
@@ -15,6 +15,7 @@ public class Person {
         this.nationality = nationality;
     }
 
+    // Getters
     public int getId() {
         return id;
     }
@@ -26,5 +27,12 @@ public class Person {
     public String getEmail() {
         return email;
     }
-}
 
+    public Object getAddress() {
+        return address;
+    }
+
+    public Object getNationality() {
+        return nationality;
+    }
+}
