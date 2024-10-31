@@ -5,6 +5,6 @@ import com.travelcompany.eshop.exceptions.CustomerNotFoundException;
 import com.travelcompany.eshop.models.Customer;
 
 public interface CustomerService {
-    Customer findCustomerById(int id) throws CustomerNotFoundException;
     void addCustomer(Customer customer) throws CustomerEmailException;
+    Customer findCustomerById(int id) throws CustomerNotFoundException;
 }
